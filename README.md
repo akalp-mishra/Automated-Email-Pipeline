@@ -13,6 +13,8 @@ ANTRIX is an intelligent email automation system that takes the hassle out of re
 
 Perfect for sales teams, B2B outreach, and marketing campaigns that need to scale!
 
+![32a88e4d-ed68-4970-8e3f-74570c93b86f](https://github.com/user-attachments/assets/43673cc4-4e6f-4ae6-a5b3-7a2b8432b488)
+
 ---
 
 ## 🔧 Technical Architecture
@@ -58,5 +60,13 @@ ANTRIX is built with a sophisticated multi-stage pipeline that combines web scra
 ```
 Company Input → Data Scraping → Email Generation → Brochure Creation → Quality Check → Automated Delivery
 ```
+## File Structure
+
+- **main.py**: This is the main entry point of the application, responsible for initializing and executing the core functionalities.
+- **db.py**: Contains all database-related operations including connections, queries, and data manipulation.
+- **prompts/**: This directory includes various prompt templates used throughout the application for generating email content.
+- **supervisor/**: This folder contains supervisor scripts that manage the overall email workflow and ensure tasks are executed in the correct sequence.
+- **regenerate/**: Holds scripts for regenerating certain components of the email pipeline based on new inputs or configurations.
+- **configuration/**: Includes configuration files necessary for setting up and customizing the application according to user preferences and system requirements.
 
 This architecture ensures scalable, personalized outreach while maintaining security and quality standards.
